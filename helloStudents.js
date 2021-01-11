@@ -19,6 +19,6 @@ students.forEach(student => {
     if(student.lastName[0] === 'D'){
         count = count + 1;
     }
-})
+});
 console.log('Count of last names starting with D is ' + count);
 
